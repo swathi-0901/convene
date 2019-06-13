@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  */
+
 // Bootstrap
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -25,3 +26,7 @@
 @import "partials/*";
 @import "partials/layout/*";
 @import "partials/posts/*";
+
+// Media queries for a responsive design
+@import "responsive/*";
+
